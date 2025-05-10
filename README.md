@@ -1,6 +1,6 @@
 # javam ☕
 
-一个基于 Bash 的 Zulu JDK 版本管理 CLI 工具，轻量、开箱即用，简单高效！
+一个基于 Bash 的 Zulu JDK 版本管理 CLI 工具，轻量、开箱即用，简单高效！多用于 MC 开服，切换版本方便。
 
 ## ✨ 功能特性
 
@@ -10,14 +10,19 @@
 - 显示当前 Java 使用情况（含当前用的给出标记）
 - 可规范删除已安装版本
 - 所有内容中文控制台控制，不需任何三方依赖
+- 轻量级 Bash 脚本，开箱即用
+- 适用于 Linux 和 MacOS（Windows 可能不支持）
+- 开源，如果不喜欢 Zulu JDK，可以自行修改代码
 
 ## ⚡ 快速使用
 
 ```bash
 # 下载并安装 javam
 curl -sSL https://raw.githubusercontent.com/USYDShawnTan/javam/main/install.sh | bash
+```
 
-# 然后直接启动
+```bash
+# 启动！
 javam
 ```
 
@@ -47,8 +52,6 @@ JAVA_HOME: ~/.javam/versions/zulu17...
 
 MIT License
 
-本项目由 @小谈 维护，我希望它是个简洁、好用的 Java 版本切换工具，最后帮助我更好地开 MC 服 ☕
+本项目由 @Xiaotan 维护，我希望它是个简洁、好用的 Java 版本切换工具，最后帮助我更好地开 MC 服 ☕
 
 ---
-
-想优化功能？提炼 UI？接入镜像？ 来 Issue/提 PR 我一定看！
