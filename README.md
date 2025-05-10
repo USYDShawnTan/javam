@@ -14,7 +14,13 @@
 - 适用于 Linux 和 MacOS（Windows 可能不支持）
 - 开源，如果不喜欢 Zulu JDK，可以自行修改代码
 
-## ⚡ 快速使用
+## ⚡ 一次性使用
+
+```bash
+curl -sSL https://raw.githubusercontent.com/USYDShawnTan/javam/main/javam.sh | bash
+```
+
+## 📦 安装到本地供后期使用
 
 ```bash
 # 下载并安装 javam
